@@ -1,0 +1,7 @@
+{
+  "SYSTEM": "local",
+  "backbone_name": "alexnet",
+  "UPTO": 4,
+  "epochs": 10,
+  "train_backbone": "False"
+}

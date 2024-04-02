@@ -1,0 +1,9 @@
+{
+  "SYSTEM": "cedar",
+  "backbone_name": "alexnet",
+  "UPTO": 16,
+  "epochs": 10,
+  "train_backbone": "False",
+  "max_filters": "False",
+  "max_percent": 100
+}

@@ -1,0 +1,41 @@
+block size: (10000, 3, 227, 227) , dtype: uint8 , value range: 0 255
+(81, 104, 83)
+full mask length = 699192
+selection length = 238292
+2392 	: V1
+2096 	: V2
+1674 	: V3
+721 	: hV4
+965 	: V3ab
+488 	: LO
+2155 	: IPS
+482 	: VO
+382 	: PHC
+284 	: MT
+55 	: MST
+95379 	: other
+/cluster/projects/uludag/uzair//nsd//nsddata_betas/ppdata/subj01//func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session01.nii.gz
+float64 -32768.0 32767.0 (750, 81, 104, 83)
+<beta> = 0.185, <sigma> = 1.650
+/cluster/projects/uludag/uzair//nsd//nsddata_betas/ppdata/subj01//func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session02.nii.gz
+float64 -32768.0 32767.0 (750, 81, 104, 83)
+<beta> = 0.147, <sigma> = 1.488
+/cluster/projects/uludag/uzair//nsd//nsddata_betas/ppdata/subj01//func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session03.nii.gz
+float64 -32768.0 32767.0 (750, 81, 104, 83)
+<beta> = 0.154, <sigma> = 1.510
+/cluster/projects/uludag/uzair//nsd//nsddata_betas/ppdata/subj01//func1pt8mm/betas_fithrf_GLMdenoise_RR/betas_session04.nii.gz
+float64 -32768.0 32767.0 (750, 81, 104, 83)
+<beta> = 0.125, <sigma> = 1.480
+(3000, 238292)
+Total number of voxels = 238292
+Traceback (most recent call last):
+  File "/cluster/home/hussaiu/nsd/training_script.py", line 33, in <module>
+    p_enc=prep_encoder(config,df)
+  File "/cluster/home/hussaiu/nsd/models/fmri.py", line 30, in __init__
+    self.make_channel_bases()
+  File "/cluster/home/hussaiu/nsd/models/fmri.py", line 39, in make_channel_bases
+    self.channel_basis_2d[key]=torch.arange(0,n_filters)
+TypeError: arange() received an invalid combination of arguments - got (int, Proxy), but expected one of:
+ * (Number end, *, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (Number start, Number end, Number step, *, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+

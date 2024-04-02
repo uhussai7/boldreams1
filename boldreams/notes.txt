@@ -1,0 +1,6 @@
+Feb 14 12:39 AM
+Keep in mind key files for plots
+1) mechanism_of_prediction_roi.py (spatial attribution)
+2) simple_roi_dreams.py (for noise start dream of each roi)
+3) roi_dreams_ref_img.py (for ref_img start dream of each roi)
+4) accuracy?
